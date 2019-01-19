@@ -32,3 +32,6 @@ Route::put('product/{id}','ProductController@update');
 
 // Create new Product
 Route::post('product','ProductController@store');
+
+// Create new Product
+Route::post('register','UserController@register');
